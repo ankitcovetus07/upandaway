@@ -1,0 +1,13 @@
+--- 
+MYSQL: 
+  dbs: 
+    upandaway: 50.62.177.49
+  dbusers: 
+    upandaway_co: 
+      dbs: 
+        upandaway: 50.62.177.49
+      server: 50.62.177.49
+  noprefix: {}
+
+  owner: upandaway
+  server: 50.62.177.49

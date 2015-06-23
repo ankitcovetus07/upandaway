@@ -1,0 +1,282 @@
+body{
+				
+				font-family: 'Titillium Web', sans-serif;
+			}
+			span.reference{
+				position:fixed;
+				left:10px;
+				bottom:10px;
+				font-size:12px;
+			}
+			span.reference a{
+				color:#aaa;
+				text-transform:uppercase;
+				text-decoration:none;
+				text-shadow:1px 1px 1px #000;
+				margin-right:30px;
+			}
+			span.reference a:hover{
+				color:#ddd;
+			}
+			ul.sdt_menu{
+				margin-top:150px;
+			}
+			h1.title{
+				text-indent:-9000px;
+				background:transparent url(title.png) no-repeat top left;
+				width:633px;
+				height:69px;
+			}
+			
+			.content
+			{
+				
+			}
+			
+			#uaa_header_wrapper
+			{
+				border-top: 15px solid #172a75;
+				margin: -8px;
+				background-color:#fbfbfb;/* background-image:url('images/lines.png'); */
+				text-align: center;
+				height: 120px;
+			}
+			#uaa_header
+			{
+				display: inline-block;
+				text-align: left;
+				width: 1040px;
+			}
+	
+	.button{
+		background: none repeat scroll 0 0 #245683;
+		border: medium none;
+		border-radius: 0;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		float: right;
+		font-family: arial;
+		font-weight: bold;
+		margin: 2px;
+		padding: 8px 25px;
+		position: relative;
+		text-decoration: none;
+		text-shadow: 0 1px 0 #3d768a;
+		top: 50px;
+	}
+	
+	.button:hover {
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+		background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+		background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+		background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+		background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+		background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+		background-color:#408c99;
+	}
+	.button:active {
+		position:relative;
+		top:1px;
+	}
+#uaa_menu
+{
+	 background-color: #172a75;
+margin: 0px -8px;
+text-align: center;
+top: 21px;
+position: relative;
+}
+
+ul.sdt_menu {
+ 
+    display: inline-block;
+    margin-top: 0px;
+	width: 1040px;
+}
+
+
+ul.sdt_menu li span span.sdt_link {
+text-align: center;
+ font-size: 17px;
+font-family:Jura;
+margin-left: 0;
+font-weight:bold;
+}
+
+
+ul.sdt_menu li > a{
+background:none;
+box-shadow: none;
+height: 60px;
+}
+
+
+ul.sdt_menu li {
+	height: 60px;
+}
+
+ul.sdt_menu li span.sdt_active{
+background-color: #172a75;
+    box-shadow: none;
+    left: -13px;
+    top: 64px;
+    width: 205px;
+}
+.uaa_link1
+{
+height: 60px;
+    left: 0;
+    position: absolute;
+    top: 25px;
+    width: 170px;
+    z-index: 15;
+	}
+	
+	ul.sdt_menu li span.sdt_wrap {
+	height:20px;
+	}
+	
+	ul.sdt_menu li a img {
+		top:-40px;
+	}
+	
+	.uaa_Section1_Wrapper
+	{
+		height:388px;
+		
+	}
+	
+	.uaa_Section1Footer_Wrapper
+	{
+	height:50px;
+	background-color:#ed1b24;
+	}
+	
+	
+	#flightSearchBox {
+	background-color: #172a75;
+    border: 1px solid #509ee3;
+/*    left: 150px;*/
+    padding: 10px;
+/*    position: absolute;*/
+  /*  top: 240px;*/
+	word-spacing: 4px;
+	letter-spacing:2px;
+	 width: 1040px;
+	 margin-left:15px; margin-right:auto;
+}
+.passengerCount .passengerSubCount {
+    border: 2px solid #172a75;
+    margin: -3px;
+}
+
+.passengerCount .passengerCount_total {
+   -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #1D3699;
+    border-color: #1D3699;
+    border-image: none;
+    border-style: solid;
+    border-width: 3px 3px 3px 61px;
+    color: white;
+    height: 42px;
+    margin-left: 33px;
+    margin-top: 3px;
+    width: 153px;
+}
+.passengerCount .passengerSubCount .title {
+    background-color: #1D3699;
+    color: white;
+    font-size: 11px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    width: 110px;
+}
+.passengerCount .passengerSubCount .count {
+    background-color: white;
+    text-align: center;
+	margin-right: -2px;
+    width: 40px;
+}
+
+.passengerCount .passengerSubCount .plus, .passengerCount .passengerSubCount .minus {
+    background-color: #245683;
+    border: 1px solid #383b9c;
+    color: white;
+    font-weight: bold;
+    margin-right: -3px;
+    padding: 0;
+    text-align: center;
+    width: 30px;
+}
+
+.passengerCount_subtitle
+{
+	background-color: #1D3699;
+    color: white;
+    height: 38px;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    transform-origin: 78px 82px 0;
+    width: 166px;
+}
+
+.passengerCount_total_title {
+    display: inline-block;
+    font-size: 12px;
+    padding: 18px 0 0 10px;
+}
+
+.passengerCount_total_number {
+   display: inline-block;
+    font-size: 26px;
+	 text-align: center;
+}
+
+.socialLogins img
+{
+	padding:5px;
+}
+
+.moreOptions {
+	background-color: #1D3699;
+    color: white;
+    float: left;
+    font-weight: bold;
+    margin-left: 42px;
+    padding: 5px;
+    text-align: center;
+    width: 760px;
+}
+
+.divSearchButton {
+    float: left;
+    margin-left: 5px;
+}
+
+.divSearchButton .btn {
+    border-radius: 0;
+    font-size: 12px;
+    height: 30px;
+    width: 141px;
+}
+
+.socialmedialink
+{
+display: block;
+margin-left: 0px;
+outline: none;
+position: fixed;
+top: 300px;
+}
+
+.socialmedialink a:hover {
+margin-left: 10px;
+}

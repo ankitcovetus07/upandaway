@@ -1,0 +1,56 @@
+.departureDate {
+    border: 1px solid #245683;
+    height: 166px;
+    margin: 5px;
+    width: 165px;
+	background-color: white;
+}
+
+.departureDate .sub_title {
+    background-color: #1D3699;
+    color: white;
+    height: 38px;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    transform-origin: 82px 83px 0;
+    width: 166px;
+}
+
+.departureDate .sub_departureDate {
+    float: left;
+    margin-left: 40px;
+    margin-top: -26px;
+    text-align: center;
+    width: 120px;
+}
+.departureDate .sub_departureDate .day {
+    font-size: 16px;
+}
+.departureDate .sub_departureDate .date {
+    font-family: Arial;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: -6px;
+}
+.departureDate .sub_departureDate .month {
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.departureDate .sub_departureDate .year {
+    color:#FFF;
+    display: inline-block;
+    font-size: 20px;
+}
+
+/*18-12-14*/
+
+.my_box1{float:left; padding-right:30px; padding-left:15px;}
+.my_box2_departure{float:left; padding-right:30px;}
+.my_box3_departure{float:left; padding-right:30px;}
+.my_box4_passanger{	margin:8px 4px; border-radius:0px !important; float: left;letter-spacing: 0;border: 6px solid #1D3699;margin: 6px 2px 8px;}
+/*18-12-14*/
+

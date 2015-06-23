@@ -1,0 +1,29 @@
+; cPanel first:11.46.1.3 (update_time):1420653407 11.46.1.3: Cpanel::ZoneFile::VERSION:1.3 hostname:p3plcpnl0899.prod.phx3.secureserver.net latest:11.46.1.3
+; Zone file for test.upandaway.com
+$TTL 14400
+@      86400	IN      SOA     72.167.234.73. hostingex.godaddy.com. (
+		2015010702	; serial, todays date+todays
+		86400		; refresh, seconds
+		7200		; retry, seconds
+		3600000		; expire, seconds
+		86400 )		; minimum, seconds
+
+test.upandaway.com. 86400 IN NS 72.167.234.73.
+test.upandaway.com. 86400 IN NS 72.167.234.74.
+
+
+test.upandaway.com. IN A 160.153.73.72
+localhost.test.upandaway.com. IN A 127.0.0.1
+
+test.upandaway.com. IN MX 0 test.upandaway.com.
+
+mail IN CNAME test.upandaway.com.
+www IN CNAME test.upandaway.com.
+ftp IN A 160.153.73.72
+cpanel IN A 160.153.73.72
+webdisk IN A 160.153.73.72
+whm IN A 160.153.73.72
+webmail IN A 160.153.73.72
+autoconfig IN A 160.153.73.72
+autodiscover IN A 160.153.73.72
+_autodiscover._tcp IN SRV 0 0 443 cpanelemaildiscovery.cpanel.net.

@@ -1,0 +1,409 @@
+# Webalizer V2.23-05 Incremental Data - 01/11/2015 02:14:27
+2015 1 11 2 14 27
+4084 3610 20 66 33 17 180075476 169 33 0
+1 37 787 7 11
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+12 10 62748 2 4 2
+1143 1049 46048013 8 85 10
+2632 2292 120845525 7 66 13
+260 225 11155750 9 13 7
+37 34 1963440 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+349 315 13182447 13
+175 136 7913963 3
+162 140 7882515 4
+789 696 36748463 29
+697 594 30275802 14
+275 242 14009534 5
+216 196 11528265 3
+38 35 2035889 1
+695 647 27198216 67
+353 322 14537816 11
+39 36 2027564 3
+6 5 31374 2
+42 35 1969003 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 31758 1
+88 76 3945988 3
+57 47 2240959 5
+59 49 2464142 3
+43 38 2051778 1
+0
+0
+0
+3610
+0
+0
+0
+0
+0
+3
+0
+4
+19
+0
+16
+0
+0
+0
+0
+0
+0
+432
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/admin/flightdetail.php
+0 5 0 53320 0 0
+/admin/dashboard.php
+0 10 0 28120 0 0
+/images/corporate.jpg
+0 6 0 292884 0 0
+/js/jquery.min.js
+0 85 0 7304815 0 0
+/images/instagram_1.png
+0 98 0 391510 0 0
+/images/amex logo.png
+0 4 0 74584 0 0
+/admin/upload/amexrewards.jpg
+0 84 0 4112976 0 0
+/response.php
+0 70 0 59791 0 0
+/ourstory.php
+0 5 0 51680 0 0
+/dattimepicker/jquery-ui.js
+0 85 0 41024632 0 0
+/search/calender.css
+0 105 0 145215 0 0
+/admin/styles.css
+0 48 0 126665 0 0
+/admin/images/delet.png
+0 25 0 36528 0 0
+/font/fonts/fontawesome-webfont.woff
+0 83 0 6952080 0 0
+/images/mice.jpg
+0 5 0 554965 0 0
+/admin/images/edit-icon.png
+0 5 0 7320 0 0
+/images/maritime.jpg
+0 8 0 425824 0 0
+/img-sys/bg.jpg
+0 4 0 2032 0 0
+/admin/upload/cruise.jpg
+0 84 0 4827816 0 0
+/search/style.css
+0 105 0 219870 0 0
+/images/footerlogo.png
+0 100 0 2096800 0 0
+/images/mission.jpg
+0 5 0 151020 0 0
+/admin/top_of_top.php
+0 1 0 3938 0 0
+/weguarantee.php
+0 1 0 9883 0 0
+/font/css/font-awesome.min.css
+0 105 0 2180745 0 0
+/images/logo.png
+0 102 0 6556968 0 0
+/images/linkdin.png
+0 98 0 482944 0 0
+/admin/upload/groupTP.png
+0 85 0 10659680 0 0
+/corporate.php
+0 8 0 95792 0 0
+/contactus.php
+0 2 0 21598 0 0
+/images/maritime2.jpg
+0 8 0 143728 0 0
+/search/search_st.css
+0 106 0 581728 0 0
+/admin/
+0 14 0 11606 1 1
+/missiontravel.php
+0 5 0 75730 0 0
+/images/trip_adviso1.png
+0 102 0 625362 0 0
+/css/bootstrap.min.js
+0 102 0 3631914 0 0
+/maritime.php
+0 11 0 165715 0 0
+/js/jquery-ui.css
+0 87 0 2767209 0 0
+/js/jquery-ui.min.js
+0 82 0 16459286 0 0
+/about.php
+0 6 0 60468 0 0
+/css/jumbotron-narrow.css
+0 105 0 169365 0 0
+/font/css/font-awesome.css
+0 105 0 2810115 0 0
+/css/bootstrap.min.css
+0 106 0 12658520 0 0
+/images/lines.png
+0 102 0 95982 0 0
+/ajax-newsletter.php
+0 10 0 10 0 0
+/admin/hometitle.php
+0 1 0 2355 0 0
+/images/tw.png
+0 101 0 482376 0 0
+/css/bootstrap.css
+0 105 0 14549010 0 0
+/images/logo_t.jpg
+0 1 0 273565 0 0
+/css/bootstrap.vertical-tabs.css
+0 87 0 170433 0 0
+/cpanel
+0 5 0 44960 1 3
+/dattimepicker/jquery-1.10.2.js
+0 82 0 23204852 0 0
+/
+0 146 0 4222988 31 11
+/mice.php
+0 5 0 93105 0 0
+/images/fb.png
+0 100 0 474000 0 0
+/search/menu.css
+0 105 0 297465 0 0
+/img-sys/headerbg.jpg
+0 5 0 38361 0 0
+/css/my_style.css
+0 105 0 1363110 0 0
+/dattimepicker/jquery-ui.css
+0 87 0 3169845 0 0
+/admin/mailsubscr.php
+0 25 0 73413 0 0
+/images/map.png
+0 82 0 103156 0 0
+/multicity.php
+0 13 0 632076 0 0
+/js/css-pop.js
+0 75 0 245600 0 0
+/search/dropdown.css
+0 105 0 149940 0 0
+/font/fonts/fontawesome-webfont.eot
+0 7 0 507143 0 0
+/img-sys/contentbox.jpg
+0 5 0 35761 0 0
+# End Of Table - urls
+# -sites- (monthly)
+68.174.97.7
+0 42 35 1969003 1 1420807851
+/
+110.226.249.138
+0 37 34 1963440 1 1420942257
+/
+117.207.209.206
+0 108 91 4794024 1 1420707647
+/
+117.212.180.208
+0 6 5 31374 1 1420628628
+/cpanel
+184.168.224.190
+0 1 1 31758 1 1420919717
+/
+116.74.76.138
+0 95 81 4329278 3 1420775808
+/
+66.249.84.211
+0 1 1 31758 1 1420862020
+/
+168.63.200.167
+0 81 69 4036322 0 0
+-
+116.74.73.232
+0 43 39 2277769 1 1420850389
+/
+66.249.84.199
+0 1 0 0 0 0
+-
+1.39.14.196
+0 7 7 177394 1 1420753539
+/
+1.39.0.36
+0 1 1 31758 1 1420799412
+/
+1.39.14.216
+0 1 1 31758 1 1420875665
+/
+117.207.209.237
+0 54 44 1983864 1 1420836320
+/admin/
+117.208.31.22
+0 70 61 2323561 1 1420849337
+/
+115.115.98.74
+0 310 290 11669869 5 1420881626
+/cpanel
+103.231.44.227
+0 1993 1782 91905848 6 1420785121
+/
+1.39.13.72
+0 214 201 9130038 1 1420711202
+/
+59.88.91.18
+0 55 47 2461213 1 1420928913
+/
+117.217.64.156
+0 964 823 40895447 5 1420777453
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+110.226.249.138
+0 37 34 1963440 1 1420942257
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://test.upandaway.com/missiontravel.php
+0 71
+http://test.upandaway.com/ourstory.php
+0 52
+http://test.upandaway.com/admin/hometitle.php
+0 2
+http://test.upandaway.com/admin/dashboard.php
+0 22
+http://test.upandaway.com/corporate.php
+0 87
+http://test.upandaway.com/about.php
+0 3
+http://test.upandaway.com/admin/index.php
+0 3
+http://test.upandaway.com/index.php
+0 1104
+http://test.upandaway.com/multicity.php
+0 363
+http://test.upandaway.com/maritime.php
+0 151
+http://www.test.upandaway.com/font/css/font-awesome.min.css
+0 1
+http://test.upandaway.com/font/css/font-awesome.min.css
+0 30
+http://test.upandaway.com/admin/flightdetail.php
+0 18
+http://test.upandaway.com/
+0 1373
+http://test.upandaway.com/mice.php
+0 71
+- (Direct Request)
+0 162
+http://www.test.upandaway.com/search/dropdown.css
+0 3
+http://test.upandaway.com/cpanel
+0 14
+http://www.test.upandaway.com/index.php
+0 33
+http://test.upandaway.com/css/my_style.css
+0 125
+http://www.test.upandaway.com/js/jquery-ui.css
+0 3
+http://test.upandaway.com/js/jquery-ui.css
+0 96
+http://www.test.upandaway.com/
+0 32
+http://test.upandaway.com/admin/mailsubscr.php
+0 56
+http://test.upandaway.com/font/css/font-awesome.css
+0 5
+http://test.upandaway.com/admin/top_of_top.php
+0 6
+http://test.upandaway.com/weguarantee.php
+0 2
+http://test.upandaway.com/search/dropdown.css
+0 74
+http://www.test.upandaway.com/multicity.php
+0 26
+http://www.test.upandaway.com/css/my_style.css
+0 3
+http://test.upandaway.com/admin/
+0 30
+http://test.upandaway.com/contactus.php
+0 22
+http://test.upandaway.com/index.php/admin
+0 41
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 827
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+0 4
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon
+0 2
+Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 520) like 
+0 88
+Mozilla/5.0 (Linux; Android 4.2.2; GT-I9082 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Sa
+0 42
+Microsoft Office Mobile/15.0
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 104
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+0 138
+Mozilla/5.0 (X11; CrOS x86_64 6310.68.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.96 Safari/537.36
+0 136
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 1194
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 319
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 264
+Mozilla/5.0 (Linux; Android 4.3; C2004 Build/15.5.A.1.5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile Sa
+0 38
+Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0
+0 720
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2114.2 Safari/537.36
+0 151
+Ruby
+0 1
+Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B440 Safari/600.1
+0 55
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

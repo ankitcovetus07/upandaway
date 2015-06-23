@@ -1,0 +1,35 @@
+body
+{	
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.uaa_header_wrapper
+{
+	background-image: url("../images/lines.png");
+    border-bottom: 15px solid #181b7c;
+    border-top: 4px solid #ed1b24;
+    margin: -8px;
+    padding-left: 70px;
+    padding-top: 3px;
+}
+
+.uaa_menu
+{
+	background-color: #2e3192;
+    margin: 0px -8px	;
+}
+
+.uaa_login_icon
+{
+    float: right;
+    margin-right: 100px;
+    margin-top: 16px;
+}
+
+
+.uaa_contact_icon
+{
+	float: right;
+	margin-top: 18px;
+	margin-right: 20px;
+}

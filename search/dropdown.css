@@ -1,0 +1,63 @@
+
+/* -------------------- Select Box Styles: bavotasan.com Method (with special adaptations by ericrasch.com) */
+/* -------------------- Source: http://bavotasan.com/2011/style-select-box-using-only-css/ */
+.styled-select {
+   background: url('../images/dropArrow.png') no-repeat 100% 0;
+   height: 40px;
+   overflow: hidden;
+   width: 350px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   text-transform:uppercase;
+   height: 40px;
+   padding: 5px 9px; /* If you add too much padding here, the options won't show in IE */
+   width: 370px;
+}
+
+.styled-select select  option{
+	padding:5px 9px;
+	width:350px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+/* -------------------- Colors: Background */
+
+.blue    { background-color: #1D3699; }
+
+
+/* -------------------- Colors: Text */
+
+.blue select    { color: #fff;  margin: 4px;
+height: 50px;
+}
+
+.from_outer{
+	margin:15px 0px; border-radius:0px !important; width:300px;
+	}
+.from_inner{
+	border-radius:0px !important;height:50px;  width:311px !important;
+	}
+.from_inner_bt{
+	border-radius:0px !important;
+	}
+.to_outer{
+	margin:8px 0px; border-radius:0px !important; width:300px;
+	}
+.to_inner{
+	border-radius:0px !important;height:50px; width:311px !important;
+	}
+
+.to_inner_bt{
+	border-radius:0px !important;
+	}
+	
+ 

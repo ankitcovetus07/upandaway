@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+<title>UAA-HOME</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+<!-- Just for debugging purposes. Don't actually copy this line! -->
+<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+<link href="css/my_style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="font/css/font-awesome.min.css" rel="stylesheet">
+<link href="font/css/font-awesome.css" rel="stylesheet">
+<!--search box css-->
+<link href="search/search_st.css" rel="stylesheet" type="text/css" />
+<link href="search/calender.css" rel="stylesheet" type="text/css"  />
+<link href="search/dropdown.css" rel="stylesheet" type="text/css"   />
+<link href="search/menu.css" rel="stylesheet" type="text/css"  />
+<link href="search/style.css" rel="stylesheet" type="text/css" />
+<!--search box css-->
+<link href="css/bootstrap.vertical-tabs.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--top red color-->
+<div class="header top">
+  <div class="container"> </div>
+</div>
+<!--top red color--> 
+
+<!--logo and button-->
+<div class="header logo">
+  <div class="container">
+    <div class="nav nav-pills pull-right"> <span type="button" class="btn btn-lg btn-default contact"><i class="fa fa-phone contact_inner"></i>Contact</span> <span type="button" class="btn btn-lg btn-default log"><i class="fa fa-dot-circle-o log_inner"></i>login</span> <span type="button" class="btn btn-lg btn-default sign"><i class="fa fa-user sign_inner"></i>Sign Up</span> </div>
+    <h3 class="text-muted"><a href="index.html"><img src="images/logo.png" /></a></h3>
+  </div>
+</div>
+<!--logo and button-->
+
+<div class="clearfix"></div>
+
+<!--navigation-->
+<nav class="navbar navbar-inverse my_nav" role="navigation">
+<div class="container">
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+  <!--      <a class="navbar-brand" href="index_home.html">Home</a> </div>
+-->
+  <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">HOME</a></li>
+      <li><a href="maritime.html">MARITIME TRAVEL</a></li>
+      <li><a href="missiontravel.html">MISSION/HUMANITARIAN TRAVEL</a></li>
+      <li><a href="mice.html">MICE</a></li>
+      <li><a href="corporate.html">CORPORATE</a></li>
+    </ul>
+  </div>
+  <!--/.nav-collapse --> 
+</div>
+</nav>
+<!--navigation-->
+
+<div class="clearfix"></div>
+
+<!--searchbox-->
+<div class="container my_search">
+  <div id="flightSearchBox">
+    <div class="my_box1">
+      <div class="styled-select blue">
+        <select>
+          <option>Round Trip</option>
+          <option>One Way</option>
+          <option>Multi Cities</option>
+        </select>
+      </div>
+      <div class="input-group from_outer">
+        <input type="text" id="txtflightDepartLocation" placeholder="From" class="form-control from_inner"/>
+        <span class="input-group-addon from_inner_bt"><img src="images/map.png" ></span> </div>
+      <div class="input-group to_outer">
+        <input type="text" id="txtflightArrivalLocation" placeholder="To" class="form-control to_inner" />
+        <span class="input-group-addon to_inner_bt"><img src="images/map.png" ></span> </div>
+    </div>
+    <div class="my_box2_departure">
+      <div class="departureDate">
+        <div class="sub_title"> Departure Date </div>
+        <div class="sub_departureDate" >
+          <div class="day"> THURSDAY </div>
+          <div class="date"> 24 </div>
+          <div class="month"> Dec </div>
+          <div class="year" > 2014 </div>
+        </div>
+      </div>
+    </div>
+    <div class="my_box3_departure">
+      <div class="departureDate">
+        <div class="sub_title"> Arrival Date </div>
+        <div class="sub_departureDate" >
+          <div class="day"> THURSDAY </div>
+          <div class="date"> 24 </div>
+          <div class="month"> Dec </div>
+          <div class="year" > 2014 </div>
+        </div>
+      </div>
+    </div>
+    <div class="passengerCount my_box4_passanger">
+      <div class="passengerCount_subtitle">PASSANGERS</div>
+      <div style="margin-top: -38px;margin-left: 30px;">
+        <div class="adultCount passengerSubCount" style="display:block"> <span class="title" style="display:inline-block">ADULT</span> <span class="count" style="display:inline-block">1</span> </div>
+        <div class="seniorCount passengerSubCount" style="display:block"> <span class="title" style="display:inline-block">SENIOR</span> <span class="count" style="display:inline-block">0</span> </div>
+        <div class="childrenCount passengerSubCount" style="display:block"> <span class="title" style="display:inline-block">CHILDREN</span> <span class="count" style="display:inline-block">0</span> </div>
+        <div class="infantLapCount passengerSubCount" style="display:block"> <span class="title" style="display:inline-block">INFANT(lap)</span> <span class="count" style="display:inline-block">0</span> </div>
+        <div class="infantSeatCount passengerSubCount" style="display:block"> <span class="title" style="display:inline-block">INFANT(seat)</span> <span class="count" style="display:inline-block">0</span> </div>
+      </div>
+      <div class="passengerCount_total "> <span class="passengerCount_total_title">TOTAL</span> <span class="passengerCount_total_number">1</span> </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="moreOptions">MORE OPTIONS</div>
+    <div class="divSearchButton"  >
+      <input type="button" value="SEARCH" class="btn btn-danger" >
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<!--searchbox-->
+
+<div class="clearfix">&nbsp;</div>
+<div class="header content">
+  <div class="container">
+    <div class="col-md-12">
+      <h1>Top of the Top</h1>
+      <h3>A quick glance at this weeks best offering </h3>
+    </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail pic1"> <img src="images/t.JPG"></div>
+          <div class="caption details">
+            <h3>Special group offering 11</h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail pic1"> <img src="images/t.JPG"></div>
+          <div class="caption details">
+            <h3>Cruise Pricing </h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail pic1"> <img src="images/t.JPG"></div>
+          <div class="caption details">
+            <h3>Pay with Points and Fly</h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+    <div class="col-md-12 news_lett">
+      <div class="col-lg-8">
+        <h4>Travel everywhere. Get exclusive prices.</h4>
+      </div>
+      <div class="col-lg-4">
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="fa fa-angle-right"></i></button>
+          </span>
+        </div><!-- /input-group -->
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<div class="clearfix">&nbsp;</div>
+<div class="container contnt2">
+  <div class="col-sm-12">
+      <h1>What's  Hot</h1>
+      <h3>Our airfare, Are Superhot Today !</h3>
+    <div class="col-sm-12 board_bg">
+      <div class="col-xs-2 fligt_left_4"> <!-- required for floating --> 
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs tabs-left">
+          <li class="active"><a href="#home" data-toggle="tab"><i class="fa fa-location-arrow"></i><br>
+            Flights</a></li>
+          <li><a href="#profile" data-toggle="tab"><i class="fa fa-location-arrow"></i><br>
+            Flights<br>
+            Economy</a></li>
+          <li><a href="#messages" data-toggle="tab"><i class="fa fa-location-arrow"></i><br>
+            Flights<br>
+            Premium</a></li>
+          <li><a href="#settings" data-toggle="tab"><i class="fa fa-location-arrow"></i><br>
+            Flights<br>
+            Business</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-10"> 
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="home">
+            <div class="row flights_first">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row flights_first">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row flights_first">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row flights_first">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row flights_first">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane" id="profile">
+            <div class="row economy_second">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row economy_second">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row economy_second">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row economy_second">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row economy_second">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane" id="messages">
+            <div class="row premium_third">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row premium_third">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row premium_third">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row premium_third">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row premium_third">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane" id="settings">
+            <div class="row business_fourth">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row business_fourth">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row business_fourth">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row business_fourth">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+            <div class="row business_fourth">
+              <ul>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+                <li><a href="#">one123</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<div class="clearfix">&nbsp;</div>
+<div class="footer foot_bg">
+  <div class="container">
+    <div class="col-lg-12">
+      <div class="col-lg-6 pull-left subscribe">
+        <h3>Get exclusive offers. Subscribe!</h3>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="fa fa-angle-right"></i></button>
+          </span>
+        </div>
+      </div>
+      <div class="col-lg-6 pull-right btn_main"> <span type="button" class="btn btn-lg btn-default mem">
+        <h4>Already a member?</h4>
+        <span class="text">Login here</span> </span> <span type="button" class="btn btn-lg btn-default new">
+        <h4>New users</h4>
+        <span class="text">Sign up here!</span> </span> </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"> &nbsp;</div>
+    <div class="col-lg-12 foot_4box">
+      <div class="col-lg-3 foot_box1">
+        <h3><span class="fa fa-arrow-circle-o-right"></span>ABOUT</h3>
+        <ul>
+          <li><a href="about.html"><strong>About Us</strong></a></li>
+          <li><a href="ourstory.html"><strong>Our Story</strong></a></li>
+          <li><a href="contactus.html"><strong>Contact</strong></a></li>
+          <li><a href="weguarantee.html"><strong>We Guarantee</strong></a></li>
+          <li style="display: none;"><a href="#"><strong>Best Price Guarantee</strong></a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 foot_box2">
+        <h3><span class="fa fa-arrow-circle-o-right"></span>Main Office</h3>
+        <ul>
+          <li>
+            <p><strong>Up and Away Travel</strong><br>
+              347 Fifth Avenue, Suite 610<br>
+              New York NY 10016<br>
+              +1 212-889-2345,<br>
+              +1 212-889-2350<br>
+              Email : nyc@upandaway.com
+              </p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 foot_box3">
+        <h3><span class="fa fa-arrow-circle-o-right"></span>Branch Offices</h3>
+        <ul>
+          <li> <strong>Miami Address:</strong><br>
+            9719 S Dixie Hwy, Suite 15<br>
+            Miami,FL 33156<br>
+            +1 305-666-4450,<br>
+            +1 305-666-8767<br>
+            Email : mia@upandaway.com
+            <br>
+            <strong>Washington D.C. Address:</strong><br>
+            1010 Vermont Street ,Suite 1011<br>
+            Washington D.C. 20005<br>
+            +1 202-639-0520,<br>
+            +1 202-639-0525><br> 
+            Email : was@upandaway.com
+            </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 foot_box4">
+        <h3><span class="fa fa-arrow-circle-o-right"></span>India Office</h3>
+        <ul>
+          <li> <strong>Goa Address:</strong> <br>
+            302, Suyash complex<br>
+            3rd Floor,  S.V Road,<br>
+            Pamjim, Goa 403001<br>
+            +91 832 2236270<br>
+            +91 9209733404<br>
+            +1-212-810-1331<br> 
+            Email : hi@upandaway.in
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix">&nbsp;</div>
+  <div class="col-lg-12  botom_foot">
+    <h3><span><i class="fa fa-phone-square ph"></i></span> <span class="give_us">call us at</span> <span class="no">(800) 275 8001 UpAndAway</span></h3>
+    <div class="container"> <img src="images/footerlogo.png"> </div>
+    <div class="clearfix"></div>
+    <div class="container copyfoot"> <span class="pull-left col-lg-5 text-left">The Copyright ® Up and Away Travel 2014 </span> <span class="pull-right col-lg-5 text-right">Designed By Covetus</span> </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="css/bootstrap.min.js"></script>
+</body>
+</html>

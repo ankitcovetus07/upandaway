@@ -1,0 +1,325 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201501 will be lost/reset.
+# Last config file used to build this data file was /home/upandaway/tmp/awstats/awstats.test.upandaway.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2016                
+POS_TIME 2698                
+POS_VISITOR 7482                
+POS_DAY 8403                
+POS_DOMAIN 3398                
+POS_LOGIN 3668                
+POS_ROBOT 3823                
+POS_WORMS 3955                
+POS_EMAILSENDER 4086                
+POS_EMAILRECEIVER 4229                
+POS_SESSION 8593                
+POS_SIDER 8799                
+POS_FILETYPES 4364                
+POS_DOWNLOADS 4610                
+POS_OS 4658                
+POS_BROWSER 4852                
+POS_SCREENSIZE 5111                
+POS_UNKNOWNREFERER 5185                
+POS_UNKNOWNREFERERBROWSER 5292                
+POS_ORIGIN 5438                
+POS_SEREFERRALS 5575                
+POS_PAGEREFS 5719                
+POS_SEARCHWORDS 5867                
+POS_KEYWORDS 6019                
+POS_MISC 2362                
+POS_ERRORS 6078                
+POS_CLUSTER 3524                
+POS_SIDER_404 6200                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150111021427 182 45723 14015503791450
+FirstTime 20150107110344
+LastTime 20150111021408
+LastUpdate 20150111051255 182 0 182 0 0
+TotalVisits 32                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 53 316 12925978 1 33 251372
+1 8 136 7849401 20 39 64562
+2 9 140 7845137 2 22 35679
+3 66 700 36606966 19 89 129604
+4 78 601 30121193 27 96 152910
+5 18 243 13955166 8 32 54368
+6 18 196 11494285 0 20 30582
+7 3 35 2030792 0 3 5097
+8 57 647 27126378 6 48 65042
+9 32 322 14491943 8 31 40776
+10 4 36 2022467 0 3 5097
+11 2 5 29675 0 1 0
+12 3 35 1957110 0 7 8495
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 1 1 31758 0 0 0
+20 11 77 3928998 1 11 15291
+21 11 47 2223969 0 10 15291
+22 14 51 2450550 0 8 13592
+23 4 38 2043283 0 5 8495
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+in 222 1731 81521508
+jp 161 1789 91576981
+us 9 106 6036560
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+eot 7 507143 0 0
+css 1480 41813465 0 0
+png 1020 22606330 0 0
+woff 83 6952080 0 0
+php 221 2679279 0 0
+html 75 1619619 0 0
+js 517 91892290 0 0
+jpg 217 10987438 0 0
+Unknown 6 77405 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linuxandroid 69 5
+unix 118 28
+winphone 76 11
+win7 1981 185
+winunknown 1 1
+win8 290 27
+win8.1 1043 122
+Unknown 1 1
+ios_ipad 47 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+chrome39.0.2171.93 69 5
+msie11.0 88 14
+nokia 76 11
+chrome39.0.2171.96 118 28
+msie10.0 119 16
+firefox6.0 1 1
+chrome39.0.2171.95 2323 244
+safari8.0 47 12
+firefox34.0 659 49
+Unknown 2 2
+chrome38.0.2114.2 124 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Ruby 20150110195517
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Microsoft_Office_Mobile/15.0 20150108214458
+Ruby 20150110195517
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 91 91
+From1 0 0
+From2 0 0
+From3 0 0
+From4 301 3535
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 19 0
+206 3 207198
+301 4 960
+404 406 688095
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 14
+/img/loading.gif 76 http://test.upandaway.com/css/my_style.css
+/images/dropArrow.png 92 http://test.upandaway.com/search/dropdown.css
+/upandaway/response.php 68 http://test.upandaway.com/multicity.php
+/js/images/ui-bg_highlight-soft_75_cccccc_1x100.png 7 http://test.upandaway.com/js/jquery-ui.css
+/admin.php 1 -
+/js/images/ui-icons_454545_256x240.png 1 http://test.upandaway.com/js/jquery-ui.css
+/js/images/ui-icons_222222_256x240.png 7 http://test.upandaway.com/js/jquery-ui.css
+/img/closebox.png 18 http://test.upandaway.com/css/my_style.css
+/js/images/ui-bg_glass_75_e6e6e6_1x400.png 7 http://test.upandaway.com/js/jquery-ui.css
+/docs-assets/ico/favicon.png 39 -
+/js/images/ui-bg_glass_75_dadada_1x400.png 11 http://test.upandaway.com/js/jquery-ui.css
+/js/images/ui-bg_glass_55_fbf9ee_1x400.png 7 http://test.upandaway.com/js/jquery-ui.css
+/../../docs-assets/ico/favicon.png 1 -
+/js/images/ui-bg_flat_75_ffffff_40x100.png 71 http://test.upandaway.com/js/jquery-ui.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+103.231.44.227 161 1789 91576981 20150109063236
+117.217.64.156 92 829 40677975 20150109043424
+115.115.98.74 27 288 11638013 20150110092026
+117.208.31.22 24 61 2308270 20150110002532
+1.39.13.72 21 201 9111349 20150108100008
+116.74.76.138 12 81 4305492 20150109035648
+59.88.91.18 12 47 2447621 20150110222833
+117.207.209.237 11 47 1973670 20150109220857
+1.39.14.196 7 7 177394 20150108214858
+117.207.209.206 6 91 4765141 20150108090353
+168.63.200.167 4 69 4015934 20150110074114
+116.74.73.232 4 38 2065049 20150110003949
+68.174.97.7 3 35 1957110 20150109125142
+110.226.249.138 2 34 1958343 20150111021408 20150111021057 /font/fonts/fontawesome-webfont.woff
+117.212.180.208 2 5 29675 20150107110348
+1.39.14.216 1 1 31758 20150110074105
+1.39.0.36 1 1 31758 20150109103012
+184.168.224.190 1 1 31758 20150110195517
+66.249.84.211 1 1 31758 20150110035340
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20150107 4 10 59350 2
+20150108 104 1050 45905242 10
+20150109 231 2307 120314957 11
+20150110 51 225 10897157 8
+20150111 2 34 1958343 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 4
+2mn-5mn 4
+15mn-30mn 2
+0s-30s 12
+30s-2mn 4
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/font/fonts/fontawesome-webfont.woff 83 6952080 0 8
+/response.php 70 59791 0 2
+/ 65 1611329 23 5
+/index.php 39 1248969 3 4
+/admin/mailsubscr.php 25 73413 0 3
+/multicity.php 13 632076 0 0
+/maritime.php 11 165715 1 2
+/admin/dashboard.php 10 28120 0 0
+/ajax-newsletter.php 10 10 1 0
+/admin/ 10 8290 1 0
+/corporate.php 8 95792 0 1
+/font/fonts/fontawesome-webfont.eot 7 507143 2 0
+/about.php 6 60468 0 1
+/ourstory.php 5 51680 0 0
+/cpanel 5 44960 1 4
+/mice.php 5 93105 0 0
+/admin/flightdetail.php 5 53320 0 0
+/missiontravel.php 5 75730 0 0
+/admin/index.php 4 3316 0 0
+/contactus.php 2 21598 0 1
+/admin/top_of_top.php 1 3938 0 0
+/weguarantee.php 1 9883 0 0
+/admin/hometitle.php 1 2355 0 0
+/index.php/admin 1 32445 0 0
+END_SIDER
